@@ -17,6 +17,34 @@ html {
   min-height: 100%;
 }
 
+.col-sm-2 {
+    flex: 0 0 auto;
+    width: 16%;
+}
+
 body {
   margin-bottom: 60px;
+  background-color: lightgoldenrodyellow;
 }
+
+/* Header styles */
+header {
+    background-color: lightgreen;
+    padding: 10px; 
+}
+
+/*  navbar-brand style */
+.navbar-brand {
+    color: red;
+}
+
+/* Footer styles */
+.footer {
+  background-color: lightgreen;
+  color: #000000;
+}
+
+/*/@media (min-width: 576px) .col-sm-2 {
+    flex: 0 0 auto;
+    width: 16%;
+}*/

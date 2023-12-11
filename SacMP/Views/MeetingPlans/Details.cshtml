@@ -94,3 +94,22 @@
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+<!-- Add this section at the end of your view -->
+<div>
+    <button onclick="printPage()" style="
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;">
+    Print</button>
+</div>
+
+<!-- JavaScript to handle the printing -->
+<script>
+    function printPage() {
+        window.print();
+    }
+</script>
