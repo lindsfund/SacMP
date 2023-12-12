@@ -19,7 +19,7 @@ namespace SacMP.Models
         public string? PresidingLeader { get; set; }
 
         
-        [Display(Name = "Opening Hymn)")]
+        [Display(Name = "Opening Hymn")]
         public string? OpeningHymn { get; set; }
 
         [StringLength(50)]
